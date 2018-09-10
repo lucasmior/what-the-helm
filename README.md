@@ -16,6 +16,6 @@ $ docker run -ti \
   -v $PWD:/app \
   -e http_proxy=${http_proxy} \
   -e https_proxy=${https_proxy} \
-  -e KUBECONFIG=/root/.kube/config.kube002-ducktales-cd \
+  -e KUBECONFIG=/root/.kube/config.k8scluster \
   lucasmior/helm:2.9.1
 ```
